@@ -47,6 +47,22 @@
   text-align: center;
 }
 
+.colorChangeText1 {
+  display: none;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+  border-bottom: 2px solid;
+}
+.colorChangeText2 {
+  display: block;
+  color: white;
+  text-align: center;
+  padding-top: 100px;
+
+  border-bottom: 2px solid;
+}
+
 @media only screen and (max-width: 600px) {
   .header-text {
     letter-spacing: 10px;
@@ -79,6 +95,13 @@
   }
   .text {
     text-align: center;
+  }
+  .colorChangeText1 {
+    display: block;
+    padding-top: 80px;
+  }
+  .colorChangeText2 {
+    display: none;
   }
 }
 
@@ -125,5 +148,12 @@
   }
   .text {
     text-align: center;
+  }
+  .colorChangeText1 {
+    display: block;
+    padding-top: 80px;
+  }
+  .colorChangeText2 {
+    display: none;
   }
 }
